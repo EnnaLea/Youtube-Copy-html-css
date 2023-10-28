@@ -1,70 +1,177 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 800px;
-    margin-top: 4%;
-    flex-direction: column;
-
-
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  margin-top: 4%;
+  flex-direction: column;
 }
 
-.single-buttons{
-    padding: 4%;
-    width: 100%;
+.single-buttons {
+  padding: 4%;
+  width: 100%;
 }
 
-.btn{
-    margin-right: 10%;
+.btn {
+  margin-right: 10%;
 }
 
-.request{
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border: none;
-
-    cursor: pointer;
+.request {
+  background-color: black;
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
 }
 
-.amazon{
-background-color: rgb(255, 216, 20);
-width: 130px;
-height: 30px;
-border-radius: 15px;
-border: none;
-
-font-weight: bold;
-cursor: pointer;
-
+.request:hover{
+  opacity: 0.8;
 }
 
-.sign-up{
-    background-color: rgb(46, 164, 79);
-    color: #fff;
-    border: none;
-    width: 100px;
-    height: 40px;
-    border-radius: 5px;
-
-    font-weight: bold;
-    font-size: 16px;
+.amazon {
+  background-color: rgb(255, 216, 20);
+  width: 140px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.double-buttons{
-    display: flex;
-    width: 200%;
-    flex-direction: row;
-    padding: 4%;
+.amazon:hover{
+  background-color: rgb(245, 205, 3);
 }
 
-.group{
-    margin-right: 10%;
+.sign-up {
+  background-color: rgb(46, 164, 79);
+  color: #fff;
+  border: none;
+  width: 90px;
+  height: 40px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0px 5px 8px;
 }
 
+.sign-up:hover{
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.double-buttons {
+  display: flex;
+  width: 400%;
+  flex-direction: row;
+  padding: 4%;
+  margin-left: -2%;
+}
+
+.group {
+  margin-right: 10%;
+  margin-left: 2%;
+  display: flex;
+  padding: 0;
+}
+
+.group-1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: -0.5%;
+  margin-right: 2%;
+}
+
+.bootstrap-1 {
+  background-color: rgb(121, 82, 179);
+  color: #fff;
+  border: none;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  transition: background-color 0.15s;
+
+  font-weight: bold;
+}
+
+.bootstrap-1:hover{
+  background-color: rgb(99, 60, 156);
+}
+
+.bootstrap-2 {
+  background-color: #fff;
+  color: rgb(108, 117, 125);
+  border: 1px solid rgb(108, 117, 125);
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+                color 0.15s;
+
+  font-weight: bold;
+}
+
+.bootstrap-2:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkeldin-1 {
+  background-color: rgb(10, 102, 194);
+  color: #fff;
+  border: none;
+  width: 240px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  border-radius: 20px;
+  padding-left: 2%;
+  cursor: pointer;
+  transition: background-color 0.15s;
+
+  font-weight: bold;
+}
+
+.linkeldin-1:hover{
+  background-color: rgb(2, 70, 138);
+}
+
+.linkeldin-2 {
+  background-color: #fff;
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  border-radius: 20px;
+  transition: background-color 0.15s,
+      border-width 0.15s;
+
+  font-weight: bold;
+  
+}
+
+.linkeldin-2:hover{
+  background-color: rgb(226, 240, 254);
+  border-width: 2px;
+}

@@ -1,0 +1,106 @@
+.input-name,
+.input-email{
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+.button-yes,
+.button-no{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+/* .display-survey{
+    display: flex;
+
+} */
+
+.survey{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-search{
+    margin-top: 10%;
+}
+
+.img-search{
+    display: block;
+    width: 100px;
+    margin-left: 90px;
+
+}
+
+.input-search{
+    display: block;
+    width: 300px;
+    padding: 2%;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.sign-up{
+    margin-top: 10%;
+}
+
+.input{
+    display: inline-block;
+    width: 100px;
+}
+
+.email-signup{
+    margin-top: 10px;
+    display: block;
+    width: 221px;
+}
+
+.input,
+.email-signup{
+    border: 1px solid rgb(168, 161, 161);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.button-signup{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 237px;
+    border: none;
+    background-color: rgb(26, 141, 236);
+    color: white;
+    font-weight: bold;
+}
+
+.uber{
+    margin-top: 10%;
+}
+
+.uber-input{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    color: gray;
+    border: none;
+    padding: 10px;
+
+}
+
+.button{
+    margin-top: 4%;
+    border: none;
+    padding: 10px;
+    width: 140px;
+}
+
+.request{
+    background-color: black;
+    color: white;
+}
+

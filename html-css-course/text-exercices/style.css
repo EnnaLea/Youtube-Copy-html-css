@@ -1,0 +1,92 @@
+.macbook{
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.new,
+.mac,
+.pro,
+.price,
+.buy{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.new{   
+    color: rgb(219, 118, 29);
+    margin-bottom: 4px;
+    font-size: small;
+}
+
+.mac{
+    margin-bottom: 4px;
+}
+
+.pro{
+    margin-bottom: 10px;
+}
+
+.price{
+    margin-bottom: 10px;
+}
+
+.buy{
+    border: none;
+    border-radius: 20px;
+    padding: 6px 10px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+}
+
+.usd{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.million{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.today{
+    color: green;
+}
+
+.after{
+    color: gray;
+    margin-bottom: 12%;
+}
+
+.minus{
+    color: red;
+}
+
+.tweet-div{
+    font-family: Arial;
+    margin-top: 10%;
+}
+
+.tweet-header{
+    margin-bottom: 3%;
+}
+
+.tweet-author{
+    font-weight: bold;
+}
+
+.tweet-info{
+    color: gray;
+}
+
+
+.tweet{
+    margin-bottom: 4%;
+}
+
+.twitter-handle{
+    color: rgb(65, 207, 225);
+}

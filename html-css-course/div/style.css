@@ -1,0 +1,139 @@
+.red-box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.green-circle{
+    margin-top: 10%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.satisfaction{
+    margin-top: 10%;
+    border: 1px solid gray;
+    width: 300px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.music{
+    margin-top: 10%;
+    width: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+.install{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.add{
+    color: rgb(160, 160, 160) ;
+}
+
+.card{
+    margin-top: 10%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding: 12px;
+    width: 450px;
+
+
+    
+}
+
+.profile-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 6px;
+    
+}
+
+.text-box{
+    vertical-align: middle;
+    border: none;
+    font-size: 18px;
+    width: 300px;
+}
+
+.tweet-button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+p{
+    font-family: Arial;
+}
+
+.card-cat{
+    margin-top: 10%;
+    width: 200px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 40px;
+
+
+}
+
+.gatto{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.subtitle{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.add-button{
+    /* margin-top: 2%; */
+    margin-left: 10px;
+    background-color:rgb(24, 119, 242);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
