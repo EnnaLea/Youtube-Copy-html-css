@@ -15,7 +15,7 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .video-info-grid{
@@ -34,12 +34,12 @@
   }
 
   .profile{
-    width: 40px;
-    border-radius: 50px;
+    width: 36px;
+    border-radius: 50%;
   }
 
   .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
   }
 
