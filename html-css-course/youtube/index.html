@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,21 +18,49 @@
     />
   </head>
   <body>
-
     <div class="header">
-      <div class="left-section">left section</div>
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Serach" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-icon" src="icons/voice-search-icon.svg" alt="" />
+        </button>
       </div>
-      <div class="right-section">right section</div>
-      
+      <div class="right-section">
+        <img class="upload-icon" src="icons/upload.svg" alt="" />
+        <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="" />
+        <div class="notification-icon-container">
+          <div class="notifications-count">3</div>
+          <img class="notifications-icon" src="icons/notifications.svg" alt="" />
+          
+        </div>
+        
+        <img class="current-user-picture" src="images/my-channel.jpeg" alt="" />
+      </div>
     </div>
-    
+
+    <div class="sidebar">
+      <div class="sidebar-link"></div>
+      <div class="sidebar-link"></div>
+      <div class="sidebar-link"></div>
+      <div class="sidebar-link"></div>
+      <div class="sidebar-link"></div>
+      <div class="sidebar-link"></div>
+    </div>
+
+    <!-- prima riga di video -->
     <div class="grid">
       <div class="video-preview">
         <!-- vertical layout -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="images/thumbnail-1.webp" />
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <!-- orizontal layout -->
@@ -52,6 +81,7 @@
 
       <div class="video-preview">
         <div class="thumbnail-row">
+          <div class="video-time">8:22</div>
           <img class="thumbnail" src="images/thumbnail-2.webp" />
         </div>
         <!-- vertical layout -->
@@ -70,6 +100,7 @@
 
       <div class="video-preview">
         <div class="thumbnail-row">
+          <div class="video-time">22:09</div>
           <img class="thumbnail" src="images/thumbnail-4.webp" />
         </div>
         <!-- vertical layout -->
@@ -89,23 +120,26 @@
           </div>
         </div>
       </div>
+
+      <!-- seconda riga di video -->
       <div class="video-preview">
         <!-- vertical layout -->
         <div class="thumbnail-row">
-          <img class="thumbnail" src="images/thumbnail-1.webp" />
+          <div class="video-time">14:20</div>
+          <img class="thumbnail" src="images/thumbnail-5.webp" />
         </div>
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-1.jpeg" alt="" />
+            <img class="profile" src="images/channel-5.jpeg" alt="" />
           </div>
           <div class="orizontal info">
             <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
+              Kadane's Algorithm to Maximum Sum Subarray
             </p>
-            <p class="video-author">Marques Brownlee</p>
+            <p class="video-author">CS Dojo</p>
             <p class="video-stats">
-              3.4M views di visualizzazioni &#183; 6 months ago
+              519K views di visualizzazioni &#183; 5 years ago
             </p>
           </div>
         </div>
@@ -113,39 +147,41 @@
 
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="images/thumbnail-2.webp" />
+          <div class="video-time">10:13</div>
+          <img class="thumbnail" src="images/thumbnail-7.webp" />
         </div>
         <!-- vertical layout -->
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-2.jpeg" alt="" />
+            <img class="profile" src="images/channel-7.jpeg" alt="" />
           </div>
           <div class="orizontal info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
-            <p class="video-author">Markiplier</p>
-            <p class="video-stats">19M di visualizzazioni &#183; 4 years ago</p>
+            <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+            <p class="video-author">RealLifeLore</p>
+            <p class="video-stats">6.6M di visualizzazioni &#183; 1 years ago</p>
           </div>
         </div>
       </div>
 
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="images/thumbnail-4.webp" />
+          <div class="video-time">7:12</div>
+          <img class="thumbnail" src="images/thumbnail-8.webp" />
         </div>
         <!-- vertical layout -->
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-4.jpeg" alt="" />
+            <img class="profile" src="images/channel-8.jpeg" alt="" />
           </div>
           <div class="orizontal info">
             <p class="video-title">
-              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              Inside The World's Biggest Passenger Plane
             </p>
-            <p class="video-author">Veritasium</p>
+            <p class="video-author">Tech Vision</p>
             <p class="video-stats">
-              18M di visualizzazioni &#183; 4 months ago
+              3.7M di visualizzazioni &#183; 10 months ago
             </p>
           </div>
         </div>
