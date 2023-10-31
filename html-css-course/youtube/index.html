@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
         <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
@@ -29,80 +29,106 @@
           <img class="search-icon" src="icons/search.svg" alt="" />
           <div class="tooltip">Search</div>
         </button>
+
+        <!-- Put position absolute inside position relative to crate tooltip -->
         <button class="voice-search-button">
           <img class="voice-icon" src="icons/voice-search-icon.svg" alt="" />
           <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-
         <div class="upload-icon-container">
           <img class="upload-icon" src="icons/upload.svg" alt="" />
           <div class="tooltip">Create</div>
         </div>
-        
+
         <div class="apps-icon-container">
           <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="" />
           <div class="tooltip">Yuotube Apps</div>
         </div>
-        
+
         <div class="notification-icon-container">
-          
           <div class="notifation-tooltip">
             <div class="notifications-count">3</div>
-            <img class="notifications-icon" src="icons/notifications.svg" alt="" />
+            <img
+              class="notifications-icon"
+              src="icons/notifications.svg"
+              alt=""
+            />
             <div class="tooltip">Notifications</div>
           </div>
-                 
-        </div>      
+        </div>
         <img class="current-user-picture" src="images/my-channel.jpeg" alt="" />
       </div>
-    </div>
+    </header>
 
-    <div class="sidebar">
+    <nav class="sidebar">
       <div class="sidebar-link">
-        <img src="icons/home.svg" alt="">
+        <img src="icons/home.svg" alt="" />
         <div>Home</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons/explore.svg" alt="">
+        <img src="icons/explore.svg" alt="" />
         <div>Explore</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons/subscriptions.svg" alt="">
+        <img src="icons/subscriptions.svg" alt="" />
         <div>Subscriptions</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons/originals.svg" alt="">
+        <img src="icons/originals.svg" alt="" />
         <div>Originals</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons/youtube-music.svg" alt="">
+        <img src="icons/youtube-music.svg" alt="" />
         <div>Youtube Music</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons/library.svg" alt="">
+        <img src="icons/library.svg" alt="" />
         <div>Library</div>
       </div>
-    </div>
+    </nav>
 
+    <main>
     <!-- prima riga di video -->
-    <div class="grid">
+    <section class="grid">
       <div class="video-preview">
         <!-- vertical layout -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="images/thumbnail-1.webp" />
+
           <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <!-- orizontal layout -->
+
           <div class="channel">
-            <img class="profile" src="images/channel-1.jpeg" alt="" />
+            <div class="profile-picture-container">
+              <a href="https://youtube.com/c/mkbhd" target="_blank">
+                <img class="profile" src="images/channel-1.jpeg" alt="" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="images/channel-1.jpeg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Marques Brownlee</div>
+                  <div class="channel-tooltip-stats">17,8M subscribers</div>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div class="orizontal info">
-            <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
+            <a
+              class="video-title-link"
+              href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+            >
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
             <p class="video-author">Marques Brownlee</p>
             <p class="video-stats">
               3.4M views di visualizzazioni &#183; 6 months ago
@@ -120,10 +146,29 @@
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-2.jpeg" alt="" />
+            <div class="profile-picture-container">
+              <a href="https://youtube.com/c/markiplier" target="_blank">
+                <img class="profile" src="images/channel-2.jpeg" alt="" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="images/channel-2.jpeg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Markiplier</div>
+                  <div class="channel-tooltip-stats">35,7M subscribers</div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="orizontal info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <a
+              class="video-title-link"
+              href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+            >
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+            </a>
             <p class="video-author">Markiplier</p>
             <p class="video-stats">19M di visualizzazioni &#183; 4 years ago</p>
           </div>
@@ -139,12 +184,32 @@
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-4.jpeg" alt="" />
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/c/veritasium" target="_blank">
+                <img class="profile" src="images/channel-4.jpeg" alt="" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="images/channel-4.jpeg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Veritasium</div>
+                  <div class="channel-tooltip-stats">14,3M subscribers</div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="orizontal info">
-            <p class="video-title">
-              The Simplest Math Problem No One Can Solve - Collatz Conjecture
-            </p>
+            <a
+              class="video-title-link"
+              href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+            >
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+
             <p class="video-author">Veritasium</p>
             <p class="video-stats">
               18M di visualizzazioni &#183; 4 months ago
@@ -163,12 +228,33 @@
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-5.jpeg" alt="" />
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/c/CSDojo" target="_blank">
+                <img class="profile" src="images/channel-5.jpeg" alt="" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="images/channel-5.jpeg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">CS Dojo</div>
+                  <div class="channel-tooltip-stats">1,92M subscribers</div>
+                </div>
+              </div>
+
+            </div>
+            
           </div>
           <div class="orizontal info">
-            <p class="video-title">
-              Kadane's Algorithm to Maximum Sum Subarray
-            </p>
+            <a
+              class="video-title-link"
+              href="https://www.youtube.com/watch?v=86CQq3pKSUw"
+            >
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray
+              </p>
+            </a>
             <p class="video-author">CS Dojo</p>
             <p class="video-stats">
               519K views di visualizzazioni &#183; 5 years ago
@@ -186,12 +272,33 @@
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-7.jpeg" alt="" />
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww" target="_blank">
+                <img class="profile" src="images/channel-7.jpeg" alt="" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="images/channel-7.jpeg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">RealLifeLore</div>
+                  <div class="channel-tooltip-stats">7,18M subscribers</div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="orizontal info">
-            <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+            <a
+              class="video-title-link"
+              href="https://www.youtube.com/watch?v=fNVa1qMbF9Y"
+            >
+              <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+            </a>
             <p class="video-author">RealLifeLore</p>
-            <p class="video-stats">6.6M di visualizzazioni &#183; 1 years ago</p>
+            <p class="video-stats">
+              6.6M di visualizzazioni &#183; 1 years ago
+            </p>
           </div>
         </div>
       </div>
@@ -205,12 +312,33 @@
         <div class="video-info-grid">
           <!-- orizontal layout -->
           <div class="channel">
-            <img class="profile" src="images/channel-8.jpeg" alt="" />
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" target="_blank">
+                <img class="profile" src="images/channel-8.jpeg" alt="" />
+              </a>
+              <div class="channel-tooltip">
+                <img
+                  class="channel-tooltip-picture"
+                  src="images/channel-8.jpeg"
+                />
+                <div>
+                  <div class="channel-tooltip-name">Tech Vision</div>
+                  <div class="channel-tooltip-stats">820K subscribers</div>
+                </div>
+              </div>
+
+            </div>
+            
           </div>
           <div class="orizontal info">
-            <p class="video-title">
-              Inside The World's Biggest Passenger Plane
-            </p>
+            <a
+              class="video-title-link"
+              href="https://www.youtube.com/watch?v=lFm4EM1juls"
+            >
+              <p class="video-title">
+                Inside The World's Biggest Passenger Plane
+              </p>
+            </a>
             <p class="video-author">Tech Vision</p>
             <p class="video-stats">
               3.7M di visualizzazioni &#183; 10 months ago
@@ -218,6 +346,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    </main>
+
   </body>
 </html>
